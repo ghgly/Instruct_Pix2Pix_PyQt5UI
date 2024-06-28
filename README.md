@@ -1,4 +1,4 @@
-# instruct_pix2pix_pyqt5UI
+# Instruct_Pix2Pix_PyQt5UI
 
 这个程序是基于 InstructPix2Pix 模型的图像编辑工具，允许用户通过自然语言指令来编辑图像。
 
@@ -23,10 +23,10 @@
   
   注意：PyTorch 和 CUDA 版本需要匹配。请访问 [PyTorch 官网](https://pytorch.org/get-started/locally/) 选择适合您系统的安装命令。
   
-  例如，对于 CUDA 11.7，您可以使用：
+  例如，对于 CUDA Version: 12.5 ，您可以使用：
   
   ```
-  conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia
+  pip install torch torchaudio --index-url https://download.pytorch.org/whl/cu121
   ```
   
 4. 安装其他依赖：
